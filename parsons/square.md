@@ -21,7 +21,7 @@ My Sample Parsons Problem
     "print (\"Squared area is \", squared)\n" +
     "main()\n" +
     "square(side) #distractor\n" +
-    "return side * side #distractor";
+    "return side * side #distractor\n";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
