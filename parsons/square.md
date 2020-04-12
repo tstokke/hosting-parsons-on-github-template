@@ -8,18 +8,20 @@ My Sample Parsons Problem
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="Sample Parson's Problems-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="Sample Parson's Problems-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
   var initial = "def square (a):\n" +
-    "   return a * a\n" +
+    "return a * a\n" +
     "def main()\n" +
-    "   side = 10\n" +
-    "   squared = square (side)\n" +
-    "   print (\"Squared area is \", squared)\n" +
-    "main()";
+    "side = 10\n" +
+    "squared = square (side)\n" +
+    "print (\"Squared area is \", squared)\n" +
+    "main()\n" +
+    "square(side) #distractor\n" +
+    "return side * side #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
@@ -28,17 +30,16 @@ My Sample Parsons Problem
     "can_indent": true,
     "x_indent": 50,
     "lang": "en"
-    "trashId": "sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#Sample Parson's Problems-newInstanceLink").click(function(event){ 
+  $("#newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#Sample Parson's Problems-feedbackLink").click(function(event){ 
+  $("#feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
-})();
+})(); 
 </script>
