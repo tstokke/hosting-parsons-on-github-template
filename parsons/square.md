@@ -2,6 +2,8 @@
 layout: default
 title: Multiple Parson's Problems on One Page
 ---
+My Sample Parsons Problem
+
 <div id="Sample Parson's Problems-sortableTrash" class="sortable-code"></div> 
 <div id="Sample Parson's Problems-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -10,6 +12,7 @@ title: Multiple Parson's Problems on One Page
     <input id="Sample Parson's Problems-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
+(function(){
   var initial = "def square (a):\n" +
     "   return a * a\n" +
     "def main()\n" +
@@ -36,4 +39,5 @@ title: Multiple Parson's Problems on One Page
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
+})();
 </script>
