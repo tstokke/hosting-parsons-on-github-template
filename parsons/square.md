@@ -30,7 +30,7 @@ My Sample Parsons Problem
     "can_indent": true,
     "x_indent": 50,
     "lang": "en"
-    "trashId": "p1-sortableTrash"
+    "trashId": "sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
