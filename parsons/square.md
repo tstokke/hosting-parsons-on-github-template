@@ -21,13 +21,14 @@ My Sample Parsons Problem
     "   print (\"Squared area is \", squared)\n" +
     "main()";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Sample Parson's Problems-sortable",
+    "sortableId": "sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
     "can_indent": true,
     "x_indent": 50,
     "lang": "en"
+    "trashId": "sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
