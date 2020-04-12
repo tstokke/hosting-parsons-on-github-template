@@ -1,3 +1,7 @@
+---
+layout: default
+title: Multiple Parson's Problems on One Page
+---
 <div id="Sample Parson's Problems-sortableTrash" class="sortable-code"></div> 
 <div id="Sample Parson's Problems-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
