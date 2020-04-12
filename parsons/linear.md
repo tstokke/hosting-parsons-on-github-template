@@ -1,3 +1,11 @@
+---
+layout: default
+title: Linear Search
+---
+
+Organize the blocks so that there is a function that performs a linear search.
+The function will be called from main, with it's returned value displayed on the screen.
+
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
