@@ -24,12 +24,13 @@ My Sample Parsons Problem
     "return side * side #distractor\n";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
-    "max_wrong_lines": 1,
+    "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
     "can_indent": true,
     "x_indent": 50,
     "lang": "en"
+    "trashId": "p1-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
