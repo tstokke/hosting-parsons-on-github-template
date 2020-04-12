@@ -24,7 +24,7 @@ My Sample Parsons Problem
     "return side * side #distractor\n";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
-    "max_wrong_lines": 10,
+    "max_wrong_lines": 1,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
     "can_indent": true,
