@@ -4,8 +4,8 @@ title: Multiple Parson's Problems on One Page
 ---
 My Sample Parsons Problem
 
-<div id="Sample Parson's Problems-sortableTrash" class="sortable-code"></div> 
-<div id="Sample Parson's Problems-sortable" class="sortable-code"></div> 
+<div id="sortableTrash" class="sortable-code"></div> 
+<div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
     <input id="Sample Parson's Problems-feedbackLink" value="Get Feedback" type="button" /> 
