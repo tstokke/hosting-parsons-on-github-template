@@ -1,5 +1,6 @@
 ---
-title: Linear Search 2
+title: Linear Search 3
+layout: default
 ---
 
 Organize the blocks so that there is a function that performs a linear search.
