@@ -1,5 +1,5 @@
 ---
-title: Linear Search 3
+title: Linear Search 4
 layout: default
 ---
 
@@ -28,7 +28,7 @@ The function will be called from main, with it's returned value displayed on the
     "main()   ";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
-    "max_wrong_lines": 10,
+    "max_wrong_lines": 1,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
     "can_indent": true,
