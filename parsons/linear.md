@@ -1,5 +1,5 @@
 ---
-title: Linear Search
+title: Linear Search 2
 ---
 
 Organize the blocks so that there is a function that performs a linear search.
